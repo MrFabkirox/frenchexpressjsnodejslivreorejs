@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,
+  initial-scale=1.0">
+
+  <link rel="stylesheet" href="/assets/semantic.min.css">
+
+  <style>
+    .main.container{
+      margin-top: 7em;
+    }
+  </style>
+
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>french expressjs nodejs livreor ejs</title>
+</head>
+
+<body>
+
+  <div class="ui fixed inverted menu">
+    <a href="/" class="header item">Acceuil</a>
+  </div>
+
+  <div class="ui main container"></div>
+
+// 2
+  <% if (locals.flash && locals.flash.error) { %>
+  <div class="ui negative message">
+    <%= flash.error %>
+  </div>
+  <% } %>
+
+  <% if (locals.flash && locals.flash.error) { %>
+  <div class="ui positive message">
+    <%= flash.success %>
+  </div>
+  <% } %>
